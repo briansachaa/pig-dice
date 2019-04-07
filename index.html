@@ -10,11 +10,27 @@
   </head>
   <body>
     <div class="container">
-      <h1>Pig dice</h1>
-
-    </section>
-    <!--The players names input form-->
-    <section id="playingForm">
+      <div id="header">
+        <h1>Pig dice</h1>
+      </div>
+      <section id="rulesSection">
+        <div id="rulesHeader">
+          <h3 id="rules">Rules</h3>
+        </div>
+        <div id="rulesDefinitions">
+          <p>A player rolls the die until either:</p>
+          <ul>
+            <li>A one is rolled</li>
+            <li>The player chooses to hold i.e. stop rolling</li>
+          </ul>
+          <p>When a one is rolled, accumulated points are discarded and the other player takes over the dice.</p>
+          <p>When Hold is pressed, the accumulated points are added to the player's final Score.</p>
+          <p>The other player then takes the die over</p>
+          <p>
+            <span class="font-weight-bold">The first player to get 100 is the Winner!</span>
+          </p>
+        </div>
+      <section id="playingForm">
         <h3 class="newGame">New Game</h3>
         <form id="playerNames" class="form-group">
             <h3>Insert your names to play:</h3>
