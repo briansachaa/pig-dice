@@ -3,6 +3,21 @@
   box-sizing: border-box;
   width:100%;
   padding:10px;
-  background-image: url(img/pigdice.jpg);
+  background-image: url(../img/pigdice.jpg);
   background-size: cover;
+  color: white;
+}
+h1,h3,h4,button {
+  font-family: "akronim", cursive;
+}
+p,label,li {
+  font-family: "andada", cursive;
+}
+
+.btn {
+  font-size: 25px;
+  background-size:#5A3E36;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #777;
+  color: #2E8B57;
 }
