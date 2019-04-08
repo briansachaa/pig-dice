@@ -1,0 +1,8 @@
+.container {
+  font-size: 20px;
+  box-sizing: border-box;
+  width:100%;
+  padding:10px;
+  background-image: url(img/pigdice.jpg);
+  background-size: cover;
+}
