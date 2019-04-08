@@ -19,51 +19,51 @@ The rules of the game are:
 1. It can display the inputted name of the players when 'Play' is clicked.
 * Input:
 
-  ' player1:kate
-    player2:ruth '
+  ` player1:kate
+    player2:ruth `
 * Output:
 
-  ' Players:   kate              ruth '
+  ` Players:   kate              ruth ``
 2. Player1 can roll the dice and the result displayed as their turn score.
 * Input:
- ' 'roll' button is clicked
-  dice score: 3 '
+ ` 'roll' button is clicked
+  dice score: 3 ``
 
 * Output:
-' Turn Score: 6'
+` Turn Score: 6`
 3. Player1 can hold the dice and their turn total score is added to their total score. Player2 then has the chance to play.
 * Input:
 
-' 'Hold' button is clicked.'
+` 'Hold' button is clicked.`
 * Output:
 
-  ' Turn Score: 3
-   Total Score: 9'
+  ` Turn Score: 3
+   Total Score: 9`
 4. Player2 can roll the dice and the result displayed as their turn score.
 * Input:
 
-' 'Roll' button is clicked
- Dice Score: 2'
+` 'Roll' button is clicked
+ Dice Score: 2`
 * Output:
 
-' Turn Score: 5'
+` Turn Score: 5`
 5. Player2 can hold the dice and their turn score is added to their total score. Player1 then has the chance to play.
 * Input:
 
-  ' 'Hold' button is clicked.''
+  ` 'Hold' button is clicked.`
 * Output:
 
- ' Turn Score: 4
-   Total Score: 9 '       
+ ` Turn Score: 4
+   Total Score: 9`       
 6. If a player's dice score is a 1, their turn score will be reduced to 0.
 * Input:
 
-  ' 'Roll' button is clicked
-    Dice Score: 1'
+  ` 'Roll' button is clicked
+    Dice Score: 1`
 * Output:
 
- ' Previous Turn Score: 30
-   New Turn Score: 0'
+  `Previous Turn Score: 30
+   New Turn Score: 0`
 
 ## setup/installation
 To view the website, click Pig Dice Game or copy (https://briansachaa.github.io/Pig-Dice to your browser and load it.
